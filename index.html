@@ -1,0 +1,65 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Guía Rápida Rec. contraseña en Windows (Deshabilitar Proceso)</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="WINDOWS_CLAVE_PROCESO1"
+                  title="Guía Rápida Rec. contraseña en Windows (Deshabilitar Proceso)"
+                  environment="web"
+                  feedback-link="Enlace github para los issue">
+    
+      <google-codelab-step label="Página 1" duration="2">
+        <h2 is-upgraded>Tenemos varias maneras desde el <em>CMD</em> o a través de las políticas locales del sistema.</h2>
+<ul>
+<li>Creamos un usuario de pruebas con una clave <em>&#34;user2&#34;</em>, en local.<br><img alt="Foto1_WClave1" src="img/7696602138a22aa1.jpg"></li>
+</ul>
+<aside class="special"><p>Ahora abrimos un CMD como administrador. Ejecutamos lo siguiente:</p>
+</aside>
+<p class="image-container"><img alt="Foto2_WClave1" src="img/7643ae4358216a58.jpg"></p>
+<ul>
+<li>Iremos a comprobar que no podemos <em>&#34;restablecer contraseña&#34;</em>, con <em>&#34;user2&#34;</em>.<br><img alt="Foto3_WClave1" src="img/754a7932e76764e5.jpg"></li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Página 2" duration="2">
+        <h2 is-upgraded>Y ahora haremos lo mismo pero desde las políticas locales del sistema.</h2>
+<aside class="special"><p>Pulsamos <em>&#34;Win Key+R&#34;</em>. Escribimos <em>lusrmgr.msc</em></p>
+</aside>
+<p>Se nos abre la ventana de <em>políticas locales del sistema</em>. Y nos vamos a:</p>
+<aside class="special"><p><em>Usuarios y grupos locales</em> → <em>Usuarios → usuario_elegido</em> → <em>Propiedades</em> → <em>Desmarcamos El usuario no puede cambiar la clave</em> → <em>Aplicar</em> → <em>Aceptar</em>.<br>Conseguimos el mismo efecto, nos saldría el mismo mensaje que en el punto anterior.</p>
+</aside>
+<p class="image-container"><img alt="Foto4_WClave1" src="img/55b38944229db80b.jpg"></p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+
+</body>
+</html>

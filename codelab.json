@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-11-26T20:09:00+01:00",
+  "id": "WINDOWS_CLAVE_PROCESO1",
+  "duration": 4,
+  "title": "Guía Rápida Rec. contraseña en Windows (Deshabilitar Proceso)",
+  "summary": "Guía Rápida Recuperación Contraseña Windows (Deshabilitar proceso)",
+  "source": "RECU_PASS_WINDOWS1.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "markdown"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "Enlace github para los issue",
+  "url": "WINDOWS_CLAVE_PROCESO1"
+}
